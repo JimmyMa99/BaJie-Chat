@@ -43,3 +43,15 @@ pip install streamlit
 pip install transformers>=4.34
 streamlit run ./web_demo.py
 ```
+
+🔍 探索八戒-Chat(Internlm-chat-7b)
+
+[![Static Badge](https://img.shields.io/badge/-gery?style=social&label=🤖%20ModelScope)](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat/summary)
+
+更多拓展
+
+[SanZang-Chat](https://github.com/JimmyMa99/SanZang-Chat)
+
+[XTuner](https://github.com/InternLM/xtuner)
+
+[InternLM](https://github.com/InternLM/InternLM/tree/main)
