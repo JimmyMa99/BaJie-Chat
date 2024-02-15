@@ -1,7 +1,38 @@
 # BaJie-Chat
-八戒-Chat是利用《西游记》剧本中所有关于猪八戒的台词和语句，以及Chat-GPT-3.5生成的相关问题结果，基于Internlm进行QLoRA微调得到的模仿猪八戒语气的聊天语言模型。
+
+### 项目简介
+
+八戒-Chat是一个基于《西游记》剧本中猪八戒的台词和语句，以及使用InternLM进行QLoRA微调得到的模仿猪八戒语气的聊天语言模型。用户可以通过模型与八戒-Chat进行对话。
+
+### 设备要求
+
+- CPU：Intel Core i5 或以上
+- GPU：NVIDIA GeForce GTX 1060 或以上
+- 内存：8GB 或以上
+- 存储：至少20GB可用空间
+
+### 数据处理
+
+本项目采用《西游记》剧本中关于猪八戒的台词和语句作为训练数据，同时使用了InternLM进行QLoRA微调以生成更加贴合猪八戒风格的语言。
+
+详细数据处理流程请参考以下链接：
+
+- [链接到数据处理流程文档](link_to_data_processing_documentation)
+
+### 效果展示
+
+#### 截图
+
+![八戒-Chat 截图](./asserts/chat-demo.png)
+
+#### OpenXLab 链接
 
 🎲[在 OpenXLab 上尝试](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
+
+### 最佳实践
+
+<details>
+  <summary style="font-weight: bold; font-size: larger;">部署BaJie-Chat到Linux环境中</summary>
 
 ```bash
 # 进入源码目录
@@ -45,10 +76,34 @@ pip install streamlit
 pip install transformers>=4.34
 streamlit run ./web_demo.py
 ```
+</details>
+
+### 相关拓展
+
+- [XTuner GitHub 链接](https://github.com/InternLM/xtuner)
+- [InternLM GitHub 链接](https://github.com/InternLM/InternLM/tree/main)
+- [SanZang-Chat GitHub 链接](https://github.com/JimmyMa99/SanZang-Chat)
+
+### Todo
+
+- [x] qlora微调猪八戒
+  - [x] 增添原著数据，优化原著对话数据
+  - [x] 全量微调猪八戒
+  - [x] 接入lmdeploy实现openai api
+
+### 特别鸣谢
+
+特别感谢上海人工智能实验室的支持！
+
+![Internlm](./asserts/robot.png)
+
+<hr>
 
 🔍 探索八戒-Chat(Internlm-chat-7b)
 
 [![Static Badge](https://img.shields.io/badge/-gery?style=social&label=🤖%20ModelScope)](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat/summary)
+
+<hr>
 
 更多拓展
 
