@@ -7,7 +7,7 @@
 ### 设备要求
 
 - CPU：Intel Core i5 或以上
-- GPU：NVIDIA GeForce GTX 1060 或以上
+- GPU：(1/4) NVIDIA A100 或以上
 - 内存：8GB 或以上
 - 存储：至少20GB可用空间
 
@@ -87,15 +87,13 @@ streamlit run ./web_demo.py
 ### Todo
 
 - [x] qlora微调猪八戒
-  - [x] 增添原著数据，优化原著对话数据
-  - [x] 全量微调猪八戒
-  - [x] 接入lmdeploy实现openai api
+- [ ] 增添文言文和白话文数据，优化原著对话数据
+- [ ] 全量微调猪八戒
+- [ ] 接入lmdeploy实现openai api
 
 ### 特别鸣谢
 
 特别感谢上海人工智能实验室的支持！
-
-![Internlm](./asserts/robot.png)
 
 <hr>
 
