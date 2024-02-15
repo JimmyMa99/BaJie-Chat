@@ -11,28 +11,10 @@
 - 内存：8GB 或以上
 - 存储：至少20GB可用空间
 
-### 数据处理
-
-本项目采用《西游记》剧本中关于猪八戒的台词和语句作为训练数据，同时使用了InternLM进行QLoRA微调以生成更加贴合猪八戒风格的语言。
-
-详细数据处理流程请参考以下链接：
-
-- [链接到数据处理流程文档](link_to_data_processing_documentation)
-
-### 效果展示
-
-#### 截图
-
-![八戒-Chat 截图](./asserts/chat-demo.png)
-
-#### OpenXLab 链接
-
-🎲[在 OpenXLab 上尝试](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
-
 ### 最佳实践
 
 <details>
-  <summary style="font-weight: bold; font-size: larger;">部署BaJie-Chat到Linux环境中</summary>
+  <summary style="font-weight: bold; font-size: larger;">⚙️部署BaJie-Chat到Linux环境中</summary>
 
 ```bash
 # 进入源码目录
@@ -77,6 +59,24 @@ pip install transformers>=4.34
 streamlit run ./web_demo.py
 ```
 </details>
+
+### 效果展示
+
+#### 预览
+
+![八戒-Chat 截图](./asserts/chat-demo.png)
+
+#### OpenXLab 链接
+
+🎲[在 OpenXLab 上尝试](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
+
+### 数据处理
+
+本项目采用《西游记》剧本中关于猪八戒的台词和语句作为训练数据，同时使用了InternLM进行QLoRA微调以生成更加贴合猪八戒风格的语言。
+
+详细数据处理流程请参考以下链接：
+
+- [链接到数据处理流程文档](link_to_data_processing_documentation)
 
 ### 相关拓展
 
