@@ -76,7 +76,7 @@ streamlit run ./web_demo.py
 
 详细数据处理流程请参考以下链接：
 
-- [链接到数据处理流程文档](link_to_data_processing_documentation)
+- [数据处理流程文档](https://github.com/JimmyMa99/BaJie-Chat/blob/main/tools/README.md)
 
 ### 相关拓展
 
@@ -84,10 +84,16 @@ streamlit run ./web_demo.py
 - [InternLM GitHub 链接](https://github.com/InternLM/InternLM/tree/main)
 - [SanZang-Chat GitHub 链接](https://github.com/JimmyMa99/SanZang-Chat)
 
+### News
+
+[2024.2.14]：八戒-Chat 权重公开至[ModelScope](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat/summary) 部署至 [OpenXLab](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
+
+[2024.2.16]：八戒-Chat 添加文言文和白话文数据，重新训练并部署
+
 ### Todo
 
 - [x] qlora微调猪八戒
-- [ ] 增添文言文和白话文数据，优化原著对话数据
+- [x] 增添文言文和白话文数据，优化原著对话数据
 - [ ] 全量微调猪八戒
 - [ ] 接入lmdeploy实现openai api
 
