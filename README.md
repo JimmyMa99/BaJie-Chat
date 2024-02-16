@@ -17,6 +17,9 @@
   <summary style="font-weight: bold; font-size: larger;">⚙️部署BaJie-Chat到Linux环境中</summary>
 
 ```bash
+# git clone 本repo以及其submodules
+git clone --recurse-submodules git@github.com:JimmyMa99/BaJie-Chat.git
+
 # 进入源码目录
 cd xtuner
 
