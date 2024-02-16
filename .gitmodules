@@ -1,0 +1,3 @@
+[submodule "xtuner"]
+	path = xtuner
+	url = git@github.com:JimmyMa99/xtuner.git
