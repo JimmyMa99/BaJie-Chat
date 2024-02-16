@@ -8,7 +8,7 @@
 
 - CPU：Intel Core i5 或以上
 - GPU：(1/4) NVIDIA A100 或以上
-- 内存：8GB 或以上
+- 内存：32GB 或以上
 - 存储：至少20GB可用空间
 
 ### 最佳实践
@@ -17,8 +17,8 @@
   <summary style="font-weight: bold; font-size: larger;">⚙️部署BaJie-Chat到Linux环境中</summary>
 
 ```bash
-# git clone 本repo以及其submodules
-git clone --recurse-submodules git@github.com:JimmyMa99/BaJie-Chat.git
+# git clone 本 repo 以及其submodules
+git clone --recurse-submodules https://github.com/JimmyMa99/BaJie-Chat.git
 
 # 进入源码目录
 cd xtuner
@@ -42,7 +42,7 @@ xtuner convert pth_to_hf my_config/zbj_internlm2_chat_7b_qlora_oasst1_e4.py work
 xtuner convert merge {your model path} process_data/hf_models/zbj process_data/merged_models/zbj
 ```
 
-- 修改 `web_demo.py` 中的模型路径
+- 使用 streamlit 进行对话：修改 `web_demo.py` 中的模型路径
 ```diff
 -     model = (AutoModelForCausalLM.from_pretrained('path/to/your/model',
 -                                                 trust_remote_code=True).to(
