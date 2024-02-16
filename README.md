@@ -31,11 +31,11 @@ git clone https://www.modelscope.cn/Shanghai_AI_Laboratory/internlm2-7b.git
 ```
 
 ```bash
-xtuner train my_config/zbj_internlm2_chat_7b_qlora_oasst1_e3.py --deepspeed deepspeed_zero2
+xtuner train my_config/zbj_internlm2_chat_7b_qlora_oasst1_e4.py --deepspeed deepspeed_zero2
 ```
 
 ```bash
-xtuner convert pth_to_hf my_config/zbj_internlm2_chat_7b_qlora_oasst1_e3.py work_dirs/zbj_internlm2_chat_7b_qlora_oasst1_e3/{your checkpoint} process_data/hf_models/zbj
+xtuner convert pth_to_hf my_config/zbj_internlm2_chat_7b_qlora_oasst1_e4.py work_dirs/zbj_internlm2_chat_7b_qlora_oasst1_e4/{your checkpoint} process_data/hf_models/zbj
 xtuner convert merge {your model path} process_data/hf_models/zbj process_data/merged_models/zbj
 ```
 
