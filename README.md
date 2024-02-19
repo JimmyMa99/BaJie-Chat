@@ -114,7 +114,14 @@ streamlit run ./web_demo.py
 
 更多拓展
 
-[SanZang-Chat](https://github.com/JimmyMa99/SanZang-Chat)
+[三藏-Chat](https://github.com/JimmyMa99/SanZang-Chat)
+
+[悟空-Chat](https://github.com/JimmyMa99/WuKong-Chat)
+
+[八戒-Chat](https://github.com/JimmyMa99/BaJie-Chat)
+
+[悟净-Chat](https://github.com/JimmyMa99/WuJing-Chat)
+
 
 [XTuner](https://github.com/InternLM/xtuner)
 
