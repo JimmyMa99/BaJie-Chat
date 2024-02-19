@@ -67,7 +67,7 @@ streamlit run ./web_demo.py
 
 #### 预览
 
-![八戒-Chat 截图](./asserts/chat-demo.png)
+![八戒-Chat 截图](./assets/chat-demo.png)
 
 #### OpenXLab 链接
 
