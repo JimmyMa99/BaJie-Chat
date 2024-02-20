@@ -1,5 +1,13 @@
 # BaJie-Chat
 
+<div align="center">
+
+<img src="assets/frist_fig.webp" width="300"/>
+  <div>&nbsp;</div>
+  <div align="center">
+  </div>
+</div>
+
 ### 项目简介
 
 八戒-Chat是一个基于《西游记》剧本中猪八戒的台词和语句，以及使用InternLM进行QLoRA微调得到的模仿猪八戒语气的聊天语言模型。用户可以通过模型与八戒-Chat进行对话。
