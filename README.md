@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/frist_fig.webp" width="300"/>
+<img src="assets/first_fig.webp" width="300"/>
   <div>&nbsp;</div>
   <div align="center">
   </div>
