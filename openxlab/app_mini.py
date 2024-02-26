@@ -33,7 +33,7 @@ from modelscope import snapshot_download
 
 logger = logging.get_logger(__name__)
 
-model_id = 'JimmyMa99/BaJie-Chat-1.8b'
+model_id = 'JimmyMa99/BaJie-Chat-mini'
 mode_name_or_path = snapshot_download(model_id, revision='master')
 
 @dataclass
