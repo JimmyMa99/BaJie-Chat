@@ -105,8 +105,8 @@ streamlit run ./web_demo.py
 
 - [x] qlora微调猪八戒
 - [x] 增添文言文和白话文数据，优化原著对话数据
-- [ ] 全量微调猪八戒
-- [ ] 接入lmdeploy实现openai api
+- [x] 全量微调猪八戒
+- [x] 接入lmdeploy实现openai api
 
 ### 特别鸣谢
 
