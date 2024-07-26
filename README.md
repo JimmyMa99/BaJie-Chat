@@ -79,7 +79,9 @@ streamlit run ./web_demo.py
 
 #### OpenXLab 链接
 
-🎲[在 OpenXLab 上尝试](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
+🎲[在 OpenXLab 上尝试 -- InternLM2](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
+
+🎲[在 OpenXLab 上尝试 -- Llama3.1](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat-llama3_1-8b)
 
 ### 数据处理
 
@@ -96,6 +98,8 @@ streamlit run ./web_demo.py
 - [SanZang-Chat GitHub 链接](https://github.com/JimmyMa99/SanZang-Chat)
 
 ### News
+
+[2024.7.24]：八戒-Chat-Lama3.1-8b 权重公开至[ModelScope](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat-llama3_1-8b) 部署至 [OpenXLab](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat-llama3_1-8b)
 
 [2024.2.14]：八戒-Chat 权重公开至[ModelScope](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat/summary) 部署至 [OpenXLab](https://openxlab.org.cn/apps/detail/JimmyMa99/BaJie-Chat)
 
@@ -117,6 +121,10 @@ streamlit run ./web_demo.py
 🔍 探索八戒-Chat(Internlm-chat-7b)
 
 [![Static Badge](https://img.shields.io/badge/-gery?style=social&label=🤖%20ModelScope)](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat/summary)
+
+🔍 探索八戒-Chat(Llama3_1-8b)
+
+[![Static Badge](https://img.shields.io/badge/-gery?style=social&label=🤖%20ModelScope)](https://www.modelscope.cn/models/JimmyMa99/BaJie-Chat-llama3_1-8b/summary)
 
 <hr>
 
